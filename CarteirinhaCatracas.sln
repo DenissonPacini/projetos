@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarteirinhaCatracas", "CarteirinhaCatracas\CarteirinhaCatracas.csproj", "{360A3BF2-7A93-4FC9-9416-AC1C1A0C4069}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{0A9DBDAF-D8DC-4426-A1A0-602503C068EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{1E3EAFE9-92E7-463F-94E6-592DB2E04E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteirinhaCatracas.Infrastructure", "CarteirinhaCatracas.Infrastructure\CarteirinhaCatracas.Infrastructure.csproj", "{1ECC382F-6FAE-47A6-9E9D-B37D86C0563A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{0684C55F-1449-4FF4-BF50-5A5E4DF47838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteirinhaCatracas.Domain", "CarteirinhaCatraca.Domain\CarteirinhaCatracas.Domain.csproj", "{71EB0A81-76DA-46F8-8F98-A4D836CEC91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Tests", "5.Tests", "{87220358-DB87-4446-861A-17EF35DB6C91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{360A3BF2-7A93-4FC9-9416-AC1C1A0C4069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360A3BF2-7A93-4FC9-9416-AC1C1A0C4069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360A3BF2-7A93-4FC9-9416-AC1C1A0C4069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360A3BF2-7A93-4FC9-9416-AC1C1A0C4069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECC382F-6FAE-47A6-9E9D-B37D86C0563A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECC382F-6FAE-47A6-9E9D-B37D86C0563A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECC382F-6FAE-47A6-9E9D-B37D86C0563A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECC382F-6FAE-47A6-9E9D-B37D86C0563A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71EB0A81-76DA-46F8-8F98-A4D836CEC91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EB0A81-76DA-46F8-8F98-A4D836CEC91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EB0A81-76DA-46F8-8F98-A4D836CEC91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EB0A81-76DA-46F8-8F98-A4D836CEC91C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{360A3BF2-7A93-4FC9-9416-AC1C1A0C4069} = {0A9DBDAF-D8DC-4426-A1A0-602503C068EE}
+		{1ECC382F-6FAE-47A6-9E9D-B37D86C0563A} = {1E3EAFE9-92E7-463F-94E6-592DB2E04E67}
+		{71EB0A81-76DA-46F8-8F98-A4D836CEC91C} = {0684C55F-1449-4FF4-BF50-5A5E4DF47838}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A04464A7-0420-4408-8C35-7B9A77660D69}
+	EndGlobalSection
+EndGlobal
