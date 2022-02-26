@@ -13,7 +13,7 @@ namespace CarteirinhaCatracas.Configuration
         {
             using var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope();
             using var context = serviceScope.ServiceProvider.GetService<Infrastructure.Data.AppDbContext>();
-            //context.Database.Migrate();
+            //context.Database.Migrate();;;
             //context.Database.EnsureCreated();
         }
     }
