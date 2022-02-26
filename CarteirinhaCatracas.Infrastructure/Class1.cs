@@ -8,5 +8,6 @@ namespace CarteirinhaCatracas.Infrastructure
 {
     public class Class1
     {
+        //.
     }
 }
